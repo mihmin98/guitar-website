@@ -1,0 +1,41 @@
+.page-header {
+    background-color: #FF9900;
+    height: 10vh;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.page-header h1 {
+    width: fit-content;
+    height: inherit;
+}
+
+.page-header img {
+    max-height: 80%;
+    max-width: 30%;
+    transform: translate(16%, 12%);
+    float: left;
+}
+
+.page-header #page-header-title {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 10vh;
+    margin-left: 24px;
+    font-size: 3vmax;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.page-header #page-header-title-img {
+    transform: translate(5%, 15%);
+}
+
+.main-body {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
