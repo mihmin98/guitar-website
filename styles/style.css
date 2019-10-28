@@ -1,40 +1,30 @@
-.page-header {
-    background-color: #FF9900;
-    height: 10vh;
-    border-radius: 20px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+.navbar {
+    padding: 0.6rem;
 }
 
-.page-header h1 {
-    width: fit-content;
-    height: inherit;
+.navbar-brand img{
+    max-width: 95%;
 }
 
-.page-header img {
-    max-height: 80%;
-    max-width: 30%;
-    transform: translate(16%, 12%);
-    float: left;
+.navbar-nav li {
+    padding-right: 0.4rem;
+    font-size: 1.15rem;
 }
 
-.page-header #page-header-title {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 10vh;
-    margin-left: 24px;
-    font-size: 3vmax;
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-
+.navbar-nav li:last-of-type {
+    padding-right: 0.6rem;
 }
 
-.page-header #page-header-title-img {
-    transform: translate(5%, 15%);
+.dropdown #dropdownMenuButton {
+    font-size: 1.15rem;  
+}
+
+.navbar img {
+    width: 40vmax;
 }
 
 .main-body {
+    background-color: #FF9900;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 16px;

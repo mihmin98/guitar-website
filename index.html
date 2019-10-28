@@ -7,16 +7,54 @@
     </head>
 
     <body>
-        <div class="page-header">
-            <h1>
-                <img src="images/logos/guitar_logo.png" alt="guitar_logo">
-                <!-- <img id="page-header-title-img" src="images/logos/title_logo.png" alt="ELECTRIC GUITARS" > -->
-                <span id="page-header-title">ELECTRIC GUITARS</span>
-            </h1>
-        </div>
-        
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logos/banner_logo.png" alt="ELECTRIC GUITARS">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-primary-outline dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Manufacturers    
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item nav-link" href="fender.html">Fender</a>
+                                    <a class="dropdown-item nav-link" href="gibson.html">Gibson</a>
+                                    <a class="dropdown-item nav-link" href="jackson.html">Jackson</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-primary-outline dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shapes    
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item nav-link" href="stratocaster.html">Stratocaster</a>
+                                    <a class="dropdown-item nav-link" href="les_paul.html">Les Paul</a>
+                                    <a class="dropdown-item nav-link" href="superstrat.html">Superstrat</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="main-body">
             <h2>WHAT IS AN ELECTRIC GUITAR?</h2>
+            
             <div>
                 <p>
                     An electric guitar is a guitar that uses one or more pickups to convert the vibration of its strings into electrical signals. 
