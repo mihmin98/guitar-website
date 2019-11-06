@@ -70,6 +70,7 @@ figcaption {
 
 #guitar-construcion-img {
     max-height: 55vh;
+    transform: translate();
 }
 
 .zoom-animation {
@@ -78,9 +79,23 @@ figcaption {
 
 .zoom-animation:hover {
     /* remove zoom on small screens */
-    transform: scale(1.55);
+    transform: scale(1.4);
 }
 
 .end-links {
     font-size: 1.4rem;
+}
+
+.top-margin {
+    margin-top: 32px;
+}
+
+.bottom-margin {
+    margin-bottom: 32px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
 }
