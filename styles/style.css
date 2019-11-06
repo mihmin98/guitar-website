@@ -94,8 +94,18 @@ figcaption {
     margin-bottom: 32px;
 }
 
-.grid-container {
+.grid-container-shapes {
     display: grid;
     grid-template-columns: auto auto auto auto;
+}
 
+.grid-container-manufacturers {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.grid-item {
+    padding: 20px;
+    padding-bottom: 5px;
+    border: 2px solid black;   
 }
