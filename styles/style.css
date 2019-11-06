@@ -15,7 +15,7 @@
     padding-right: 0.6rem;
 }
 
-.dropdown #dropdownMenuButton {
+.dropdown #dropdownMenuButtonManufacturers, .dropdown #dropdownMenuButtonShapes {
     font-size: 1.15rem;  
 }
 
@@ -24,8 +24,63 @@
 }
 
 .main-body {
-    background-color: #FF9900;
+    background-color: coral;
+    border-radius: 10px;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 16px;
+}
+
+.main-body h2 {
+    padding-left: 4rem;
+    padding-top: 1.2rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.content-body p {
+    font-size: 1.4rem;
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.content-body figure {
+    align-content: center;
+}
+
+.content-body .row img {
+    max-height: 500px;
+    width: auto;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.debug {
+    border-style: solid;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#guitar-construcion-img {
+    max-height: 55vh;
+}
+
+.zoom-animation {
+    transition: transform .2s;
+}
+
+.zoom-animation:hover {
+    /* remove zoom on small screens */
+    transform: scale(1.55);
+}
+
+.end-links {
+    font-size: 1.4rem;
 }
