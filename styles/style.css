@@ -82,6 +82,32 @@ figcaption {
     transform: scale(1.4);
 }
 
+.glow-animation {
+    animation: glow-out 0.75s;
+}
+
+.glow-animation:hover {
+    animation: glow-in 0.75s;
+}
+
+@keyframes glow-in {
+    from {
+        filter: drop-shadow(0 0 0rem white);
+    }
+    to {
+        filter: drop-shadow(0 0 1rem white);
+    }
+}
+
+@keyframes glow-out {
+    from {
+        filter: drop-shadow(0 0 1rem white);
+    }
+    to {
+        filter: drop-shadow(0 0 0rem white);
+    }
+}
+
 .end-links {
     font-size: 1.4rem;
 }
