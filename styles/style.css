@@ -83,11 +83,11 @@ figcaption {
 }
 
 .glow-animation {
-    animation: glow-out 0.75s;
+    animation: glow-out 0.75s forwards;
 }
 
 .glow-animation:hover {
-    animation: glow-in 0.75s;
+    animation: glow-in 0.75s forwards;
 }
 
 @keyframes glow-in {
