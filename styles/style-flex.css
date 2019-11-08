@@ -1,0 +1,64 @@
+header {
+    display: inline-flex;
+    background: grey;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header img {
+    height: 64px;
+    width: auto;
+}
+
+header .header-text {
+    font-size: 3em;
+    margin-left: 16px;
+    font-family: ubuntu, Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    height: auto;
+    transform: translate(50%, 0);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main-body {
+    margin: 20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-item {
+    padding: 20px;
+    padding-bottom: 5px;
+    /*border: 2px solid black;*/
+}
+
+
+.grid-item figcaption {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.rotation-animation {
+    transition: transform 0.5s;
+}
+
+.rotation-animation:hover {
+    transform: rotateZ(12deg);
+}
