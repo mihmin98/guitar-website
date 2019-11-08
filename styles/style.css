@@ -24,11 +24,14 @@
 }
 
 .main-body {
-    background-color: coral;
     border-radius: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-top: 16px;
+}
+
+.background-gradient-golden {
+    background-image: linear-gradient(goldenrod, gold, darkgoldenrod); 
 }
 
 .main-body h2 {
@@ -73,6 +76,10 @@ figcaption {
     transform: translate();
 }
 
+.purple-links a {
+    color: #6a04ff;
+}
+
 .zoom-animation {
     transition: transform .2s;
 }
@@ -92,19 +99,19 @@ figcaption {
 
 @keyframes glow-in {
     from {
-        filter: drop-shadow(0 0 0rem white);
+        filter: drop-shadow(0 0 0rem #9a34ff);
     }
     to {
-        filter: drop-shadow(0 0 1rem white);
+        filter: drop-shadow(0 0 1.2rem #9a34ff);
     }
 }
 
 @keyframes glow-out {
     from {
-        filter: drop-shadow(0 0 1rem white);
+        filter: drop-shadow(0 0 1.2rem #9a34ff);
     }
     to {
-        filter: drop-shadow(0 0 0rem white);
+        filter: drop-shadow(0 0 0rem #9a34ff);
     }
 }
 
