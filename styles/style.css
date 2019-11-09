@@ -31,7 +31,7 @@
 }
 
 .background-gradient-golden {
-    background-image: linear-gradient(goldenrod, gold, darkgoldenrod); 
+    background-image: linear-gradient(white, lightskyblue); 
 }
 
 .main-body h2 {
@@ -77,7 +77,7 @@ figcaption {
 }
 
 .purple-links a {
-    color: #6a04ff;
+    color: #222321;
 }
 
 .zoom-animation {
@@ -99,19 +99,19 @@ figcaption {
 
 @keyframes glow-in {
     from {
-        filter: drop-shadow(0 0 0rem #9a34ff);
+        filter: drop-shadow(0 0 0rem #222321);
     }
     to {
-        filter: drop-shadow(0 0 1.2rem #9a34ff);
+        filter: drop-shadow(0 0 1.2rem #222321);
     }
 }
 
 @keyframes glow-out {
     from {
-        filter: drop-shadow(0 0 1.2rem #9a34ff);
+        filter: drop-shadow(0 0 1.2rem #222321);
     }
     to {
-        filter: drop-shadow(0 0 0rem #9a34ff);
+        filter: drop-shadow(0 0 0rem #222321);
     }
 }
 
