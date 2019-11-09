@@ -5,14 +5,41 @@
         <link rel="stylesheet" type="text/css" href="styles/style-flex.css">
     </head>
     <body>
-        <a href="index.html">
-            <header>
+        <nav>
+            <a class="tooltip" href="javascript:history.go(-1)">
                 <img src="images/misc/left_arrow_512.png" alt="left_arrow">
-                <div class="header-text">
-                    Go Back
-                </div>
-            </header>
-        </a>
+                <span class="tooltiptext">Go Back</span>
+            </a>
+            <ul class="navbar-container">
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Manufacturers</button>
+                        <div class="dropdown-items">
+                            <a href="fender.html">Fender</a><br>
+                            <a href="gibson.html">Gibson</a><br>
+                            <a href="jackson.html">Jackson</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Shapes</button>
+                        <div class="dropdown-items">
+                            <a href="stratocaster.html">Stratocaster</a><br>
+                            <a href="telecaster.html">Telecaster</a><br>
+                            <a href="les_paul.html">Les Paul</a><br>
+                            <a href="superstrat.html">Superstrat</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
         <div class="flex-container border-radius-10 background-gradient p-20">
             <div class="logo">
                 <img src="images/logos/Fender_guitars_logo.png" alt="fender_logo">
@@ -86,8 +113,8 @@
                 <!--TODO: Maybe also add jazzmaster, jaguar, mustang-->
             </div>
         </div>
-        <footer class="page-footer font-small blue-link">
-            <div class="footer-copyright text-center py-4">© 2019 Copyright:
+        <footer>
+            <div class="blue-link">© 2019 Copyright:
                 <a href="https://github.com/mihmin98"> Smarandache Mihnea</a>
             </div>          
         </footer>
