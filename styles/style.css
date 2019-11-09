@@ -38,6 +38,10 @@
     filter: invert(100%);
 }
 
+.carousel-indicators {
+    filter: invert(80%);
+}
+
 .main-body h2 {
     padding-left: 4rem;
     padding-top: 1.2rem;
