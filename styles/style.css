@@ -30,8 +30,12 @@
     margin-top: 16px;
 }
 
-.background-gradient-golden {
+.background-gradient {
     background-image: linear-gradient(white, lightskyblue); 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
 }
 
 .main-body h2 {
