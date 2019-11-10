@@ -48,6 +48,11 @@ nav img {
     list-style-type: none;
 }
 
+.navbar-item {
+    margin: 5px;
+    padding: 5px;
+}
+
 @media screen and (min-width: 800px){
     .navbar-expand-items {
         display: none;
@@ -56,8 +61,6 @@ nav img {
     .navbar-item {
         vertical-align: middle;
         font-size: 2rem;
-        margin: 6px;
-        padding: 5px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
@@ -87,8 +90,6 @@ nav img {
     }
     
     .navbar-item {
-        margin: 1px;
-        padding: 1px;
         margin-right: 20px;
         display: none;
     }
