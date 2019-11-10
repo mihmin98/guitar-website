@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="styles/navbar-others.css">
+        <link rel="stylesheet" type="text/css" href="styles/style-contact.css">
+    </head>
+    <body>
+        <nav>
+            <a class="tooltip" href="javascript:history.go(-1)">
+                <img src="images/misc/left_arrow_512.png" alt="left_arrow">
+                <span class="tooltiptext">Go Back</span>
+            </a>
+            <ul class="navbar-container">
+                <li class="navbar-expand-items">
+                    <button>
+                        <img src="images/misc/three_dots.svg" alt="open_menu">
+                    </button>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Manufacturers</button>
+                        <div class="dropdown-items">
+                            <a href="fender.html">Fender</a><br>
+                            <a href="gibson.html">Gibson</a><br>
+                            <a href="jackson.html">Jackson</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Shapes</button>
+                        <div class="dropdown-items">
+                            <a href="stratocaster.html">Stratocaster</a><br>
+                            <a href="telecaster.html">Telecaster</a><br>
+                            <a href="les_paul.html">Les Paul</a><br>
+                            <a href="superstrat.html">Superstrat</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class=" background-gradient flex-container">
+            <div class="main-body">
+                <h1>CONTACT</h1>
+                <p>Leave a message</p>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="last-name"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="first-name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="number" name="phone-number"></td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td><input type="text" name="message"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit"></td>
+                    </tr>
+                </table>
+                <h1>ADDRESS</h1>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=universitate%20bucuresti&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="blue-link">© 2019 Copyright:
+                <a href="https://github.com/mihmin98"> Smarandache Mihnea</a>
+            </div>          
+        </footer>
+    </body>
+</html>
