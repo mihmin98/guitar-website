@@ -21,17 +21,25 @@ nav img {
     text-decoration: none;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    align-self: center;
-    margin-left: 10px;
-    color: black;
-    padding: 5px;
-    font-size: 2.4rem;
+@media screen and (min-width: 940px) {
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        align-self: center;
+        margin-left: 10px;
+        color: black;
+        padding: 5px;
+        font-size: 2.4rem;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+@media screen and (max-width: 939px) {
+    .tooltip .tooltiptext {
+        display: none;
+    }
 }
 
 .navbar-container {
@@ -40,21 +48,60 @@ nav img {
     list-style-type: none;
 }
 
-.navbar-item {
-    vertical-align: middle;
-    font-size: 2rem;
-    margin: 6px;
-    padding: 5px;
-    /*border: 1px solid black;*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@media screen and (min-width: 800px){
+    .navbar-expand-items {
+        display: none;
+    }
+
+    .navbar-item {
+        vertical-align: middle;
+        font-size: 2rem;
+        margin: 6px;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar-item:last-of-type {
+        margin-right: 20px;
+    }
+    
 }
 
-.navbar-item:last-of-type {
-    margin-right: 20px;
-}
+@media screen and (max-width: 799px) {
+    .navbar-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .navbar-expand-items button {
+        margin-right: 20px;
+        border-style: 2px solid black;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .navbar-expand-items button img {
+        padding: 5px;
+    }
+    
+    .navbar-item {
+        margin: 1px;
+        padding: 1px;
+        margin-right: 20px;
+        display: none;
+    }
+
+    .navbar-container:hover .navbar-item {
+        display: flex;
+    }
+} 
+
 
 .navbar-item a {
     text-decoration: none;
+    font-size: 2rem;
     color: black;
 }
 
@@ -65,24 +112,27 @@ nav img {
 .dropdown {
     position: relative;
     display: inline-flexbox;
-    width: fit-content;
+    width: 100%;
 }
 
 .dropdown-button {
     border: none;
+    padding: 0px;
     font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: none;
 }
 
 .dropdown-items {
     display: none;
     position: absolute;
-    width: inherit;
-    text-align: center;
+    text-align: left;
     background: lightgrey;
     border-radius: 5px;
-    align-self: center;
     padding: 5px;
+    z-index: 1;
+    left: auto;
+    right: 0;
 }
 
 .dropdown-items a {
@@ -148,23 +198,53 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid-container-4 {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+@media screen and (min-width: 1000px){
+
+    .grid-container {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 25%);
+        justify-content: center;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .grid-container {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 50%);
+        justify-content: center;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .grid-container {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        object-fit: cover;
+    }
 }
 
 .grid-item {
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 5px;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
+}
+
+.grid-item figure {
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted blue;
 }
 
 .grid-item img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 815px;
-    width: auto;
+    width: 100%;
+    align-self: center;
+    border: 2px solid green;
 }
 
 .padding-5 {
