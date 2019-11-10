@@ -9,10 +9,26 @@ nav {
     border-left: 4px solid #999999;
 }
 
+nav .banner {
+    vertical-align: middle;
+}
+
 nav img {
     height: 64px;
-    max-width: 100%;
+    width: auto;
     vertical-align: middle;
+}
+
+@media screen and (min-width: 900px) {
+    nav .banner {
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    nav .banner {
+        height: 40px;
+    }
 }
 
 .tooltip {
@@ -35,7 +51,9 @@ nav img {
     .navbar-item {
         vertical-align: middle;
         font-size: 2rem;
-        margin: 6px;
+        margin: 5px;
+        margin-top: 17px;
+        margin-bottom: 17px;
         padding: 5px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }

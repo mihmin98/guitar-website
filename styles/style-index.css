@@ -63,13 +63,15 @@ figcaption {
     color: #222321;
 }
 
-.zoom-animation {
-    transition: transform .2s;
-}
+@media screen and (min-width: 990px) {
+    .zoom-animation {
+        transition: transform .2s;
+    }
 
-.zoom-animation:hover {
-    /* remove zoom on small screens */
-    transform: scale(1.4);
+    .zoom-animation:hover {
+        /* remove zoom on small screens */
+        transform: scale(1.4);
+    }
 }
 
 .glow-animation {
@@ -112,7 +114,7 @@ figcaption {
 
 .grid-container-shapes {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .grid-container-manufacturers {
@@ -121,7 +123,6 @@ figcaption {
 }
 
 .grid-item {
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 5px;
-    /*border: 2px solid black;*/
 }
