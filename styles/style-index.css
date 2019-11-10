@@ -1,28 +1,3 @@
-.navbar {
-    padding: 0.6rem;
-}
-
-.navbar-brand img{
-    max-width: 95%;
-}
-
-.navbar-nav li {
-    padding-right: 0.4rem;
-    font-size: 1.15rem;
-}
-
-.navbar-nav li:last-of-type {
-    padding-right: 0.6rem;
-}
-
-.dropdown #dropdownMenuButtonManufacturers, .dropdown #dropdownMenuButtonShapes {
-    font-size: 1.15rem;  
-}
-
-.navbar img {
-    width: 40vmax;
-}
-
 .main-body {
     border-radius: 10px;
     padding-left: 16px;

@@ -3,54 +3,47 @@
     <head>
         <title>Electric Guitars</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/navbar-index.css">
+        <link rel="stylesheet" type="text/css" href="styles/style-index.css">
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logos/banner_logo.png" alt="ELECTRIC GUITARS">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-primary-outline dropdown-toggle" type="button" id="dropdownMenuButtonManufacturers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Manufacturers    
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonManufacturers">
-                                    <a class="dropdown-item nav-link" href="fender.html">Fender</a>
-                                    <a class="dropdown-item nav-link" href="gibson.html">Gibson</a>
-                                    <a class="dropdown-item nav-link" href="jackson.html">Jackson</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-primary-outline dropdown-toggle" type="button" id="dropdownMenuButtonShapes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Shapes    
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonShapes">
-                                    <a class="dropdown-item nav-link" href="stratocaster.html">Stratocaster</a>
-                                    <a class="dropdown-item nav-link" href="telecaster.html">Telecaster</a>
-                                    <a class="dropdown-item nav-link" href="les_paul.html">Les Paul</a>
-                                    <a class="dropdown-item nav-link" href="superstrat.html">Superstrat</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav>
+            <img src="images/logos/banner_logo.png" alt="left_arrow">
+            <ul class="navbar-container">
+                <li class="navbar-expand-items">
+                    <button>
+                        <img src="images/misc/three_dots.svg" alt="open_menu">
+                    </button>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Manufacturers</button>
+                        <div class="dropdown-items">
+                            <a href="fender.html">Fender</a><br>
+                            <a href="gibson.html">Gibson</a><br>
+                            <a href="jackson.html">Jackson</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Shapes</button>
+                        <div class="dropdown-items">
+                            <a href="stratocaster.html">Stratocaster</a><br>
+                            <a href="telecaster.html">Telecaster</a><br>
+                            <a href="les_paul.html">Les Paul</a><br>
+                            <a href="superstrat.html">Superstrat</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
         </nav>
 
         <div class="main-body background-gradient">
