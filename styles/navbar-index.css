@@ -33,12 +33,6 @@ nav img {
     }
 }
 
-.tooltip {
-    display: inline-flex;
-    align-self: center;
-    text-decoration: none;
-}
-
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -111,6 +105,7 @@ nav img {
     position: relative;
     display: inline-flexbox;
     width: 100%;
+    border: 2px solid black;
 }
 
 .dropdown-button {
@@ -143,7 +138,7 @@ nav img {
     text-shadow: 0 0 2px black;
 }
 
-.dropdown:hover .dropdown-items {
+.dropdown:hover .dropdown-items, .dropdown-items:hover {
     display: block;
 }
 
