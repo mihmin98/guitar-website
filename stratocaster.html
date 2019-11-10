@@ -2,21 +2,100 @@
 <html lang=en>
     <head>
         <title>Stratocaster</title>
+        <link rel="stylesheet" type="text/css" href="styles/style-others.css">
+        <link rel="stylesheet" type="text/css" href="styles/navbar-others.css">
     </head>
     <body>
-        <h1>STRATOCASTER</h1>
-        <div>
-            <!--Maybe remove this header-->
-            <h3>GENERAL INFO</h3>
-            <p>
-                The Fender Stratocaster is a model of electric guitar designed from 1952 into 1954 by Leo Fender, Bill Carson, George Fullerton, and completed by Freddie Tavares. 
-                The Fender Musical Instruments Corporation has continuously manufactured the Stratocaster from 1954 to the present. 
-                It is a double-cutaway guitar, with an extended top "horn" shape for balance like the Precision Bass guitar. 
-                Along with the Gibson Les Paul and Fender Telecaster, it is one of the most-often emulated electric guitar shapes. 
-                "Stratocaster" and "Strat" are trademark terms belonging to Fender. 
-                Guitars that duplicate the Stratocaster by other manufacturers are usually called S-Type or ST-type guitars.
-            </p>
-            <!--TODO: Add some photos of the guitar and maybe some famous players-->
+        <nav>
+            <a class="tooltip" href="javascript:history.go(-1)">
+                <img src="images/misc/left_arrow_512.png" alt="left_arrow">
+                <span class="tooltiptext">Go Back</span>
+            </a>
+            <ul class="navbar-container">
+                <li class="navbar-expand-items">
+                    <button>
+                        <img src="images/misc/three_dots.svg" alt="open_menu">
+                    </button>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Manufacturers</button>
+                        <div class="dropdown-items">
+                            <a href="fender.html">Fender</a><br>
+                            <a href="gibson.html">Gibson</a><br>
+                            <a href="jackson.html">Jackson</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Shapes</button>
+                        <div class="dropdown-items">
+                            <a href="stratocaster.html">Stratocaster</a><br>
+                            <a href="telecaster.html">Telecaster</a><br>
+                            <a href="les_paul.html">Les Paul</a><br>
+                            <a href="superstrat.html">Superstrat</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex-container border-radius-10 background-gradient p-20">
+            <div class="logo">
+                <figure>
+                    <figcaption>Stratocaster</figcaption>
+                    <img src="images/guitars/fender_player_stratocaster.png" alt="fender_player_stratocaster">
+                </figure>
+            </div>
+            <div class="main-body">
+                <p>
+                    The Fender Stratocaster is a model of electric guitar designed from 1952 into 1954 by Leo Fender, Bill Carson, George Fullerton, and completed by Freddie Tavares. 
+                    The Fender Musical Instruments Corporation has continuously manufactured the Stratocaster from 1954 to the present. 
+                    It is a double-cutaway guitar, with an extended top "horn" shape for balance like the Precision Bass guitar. 
+                    Along with the Gibson Les Paul and Fender Telecaster, it is one of the most-often emulated electric guitar shapes. 
+                    "Stratocaster" and "Strat" are trademark terms belonging to Fender. 
+                    Guitars that duplicate the Stratocaster by other manufacturers are usually called S-Type or ST-type guitars.
+                </p>
+                <br/>
+                <h2>MODELS</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <figure>
+                            <img class="rotation-animation-12" src="images/guitars/fender_player_stratocaster_vert_1000px.png" alt="fender_player_stratocaster">
+                            <figcaption>Fender Player Stratocaster</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img class="rotation-animation-12" src="images/guitars/american_professional_strat_vert_1000px.png" alt="fender_american_professional_stratocaster">
+                            <figcaption>Fender Player Stratocaster</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img class="rotation-animation-12" src="images/guitars/jimi_hendrix_strat_vert_1000px.png" alt="fender_jimi_hendrix_stratocaster">
+                            <figcaption>Fender Jimi Hendrix Stratocaster</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img class="rotation-animation-12" src="images/guitars/yngwie_strat_vert_1000px.png" alt="fender_yngwie_malmsteen_stratocaster">
+                            <figcaption>Fender Yngwie Malmsteen Stratocaster</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </div>
+        <footer>
+            <div class="blue-link">© 2019 Copyright:
+                <a href="https://github.com/mihmin98"> Smarandache Mihnea</a>
+            </div>          
+        </footer>
     </body>
 </html>
