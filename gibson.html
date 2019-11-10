@@ -5,15 +5,47 @@
         <link rel="stylesheet" type="text/css" href="styles/style-flex.css">
     </head>
     <body>
-        <a href="index.html">
-            <header>
+        <nav>
+            <a class="tooltip" href="javascript:history.go(-1)">
                 <img src="images/misc/left_arrow_512.png" alt="left_arrow">
-                <div class="header-text">
-                    Go Back
-                </div>
-            </header>
-        </a>
-        <div class="flex-container">
+                <span class="tooltiptext">Go Back</span>
+            </a>
+            <ul class="navbar-container">
+                <li class="navbar-expand-items">
+                    <button>
+                        <img src="images/misc/three_dots.svg" alt="open_menu">
+                    </button>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Manufacturers</button>
+                        <div class="dropdown-items">
+                            <a href="fender.html">Fender</a><br>
+                            <a href="gibson.html">Gibson</a><br>
+                            <a href="jackson.html">Jackson</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropdown-button">Shapes</button>
+                        <div class="dropdown-items">
+                            <a href="stratocaster.html">Stratocaster</a><br>
+                            <a href="telecaster.html">Telecaster</a><br>
+                            <a href="les_paul.html">Les Paul</a><br>
+                            <a href="superstrat.html">Superstrat</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex-container border-radius-10 background-gradient p-20">
             <div class="logo">
                 <img src="images/logos/gibson_logo_1280px.png" alt="gibson_logo">
             </div>
@@ -28,7 +60,7 @@
                 </p>
                 <br/>
                 <h2>LES PAUL</h2>
-                <div class="grid-container-4">
+                <div class="grid-container">
                     <div class="grid-item">
                         <figure>
                             <img class="rotation-animation-12" src="images/guitars/les_paul_classic_vert_1000px.png" alt="gibson_les_paul_classic">
@@ -56,7 +88,7 @@
                 </div>
 
                 <h2>SG</h2>
-                <div class="grid-container-4">
+                <div class="grid-container">
                     <div class="grid-item">
                         <figure>
                                 <img class="rotation-animation-12" src="images/guitars/les_paul_sg_custom_1963_vert_1000px.png" alt="gibson_les_paul_sg_custom_1963">
@@ -84,5 +116,10 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="blue-link">© 2019 Copyright:
+                <a href="https://github.com/mihmin98"> Smarandache Mihnea</a>
+            </div>          
+        </footer>
     </body>
 </html>

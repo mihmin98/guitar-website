@@ -201,7 +201,7 @@ h2 {
 @media screen and (min-width: 1000px){
 
     .grid-container {
-        border: 2px solid red;
+        /*border: 2px solid red;*/
         display: grid;
         grid-template-columns: repeat(auto-fill, 25%);
         justify-content: center;
@@ -211,7 +211,7 @@ h2 {
 
 @media screen and (max-width: 999px) {
     .grid-container {
-        border: 2px solid red;
+        /*border: 2px solid red;*/
         display: grid;
         grid-template-columns: repeat(auto-fill, 50%);
         justify-content: center;
@@ -221,7 +221,7 @@ h2 {
 
 @media screen and (max-width: 599px) {
     .grid-container {
-        border: 2px solid red;
+        /*border: 2px solid red;*/
         display: grid;
         grid-template-columns: 100%;
         justify-content: center;
@@ -232,19 +232,19 @@ h2 {
 .grid-item {
     padding: 15px;
     padding-bottom: 5px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 .grid-item figure {
     display: flex;
     flex-direction: column;
-    border: 2px dotted blue;
+    /*border: 2px dotted blue;*/
 }
 
 .grid-item img {
     width: 100%;
     align-self: center;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 .padding-5 {
