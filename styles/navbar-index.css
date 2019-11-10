@@ -17,6 +17,8 @@ nav img {
     height: 64px;
     width: auto;
     vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 @media screen and (min-width: 900px) {
