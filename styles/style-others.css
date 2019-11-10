@@ -132,25 +132,3 @@ h2 {
 .rotation-animation-10:hover {
     transform: rotateZ(10deg);
 }
-
-footer {
-    padding: 28px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
-}
-
-.blue-link a {
-    color: #5050FF;
-    text-decoration: none;
-}
-
-.blue-link a:visited {
-    color: #5050FF;
-    text-decoration: none;
-}
-
-.blue-link a:hover {
-    color: dodgerblue;
-    text-decoration: underline;
-}

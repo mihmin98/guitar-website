@@ -69,25 +69,3 @@ table tr:last-of-type td[colspan="2"] {
     height: 400px;
     width: 400px;
 }
-
-footer {
-    padding: 28px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
-}
-
-.blue-link a {
-    color: #5050FF;
-    text-decoration: none;
-}
-
-.blue-link a:visited {
-    color: #5050FF;
-    text-decoration: none;
-}
-
-.blue-link a:hover {
-    color: dodgerblue;
-    text-decoration: underline;
-}
