@@ -71,8 +71,8 @@ table tr:last-of-type td[colspan="2"] {
 .mapouter {
     position: relative;
     text-align: right;
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,8 +80,8 @@ table tr:last-of-type td[colspan="2"] {
 .gmap_canvas {
     overflow: hidden;
     background: none!important;
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
 }
 
 .flex-horizontal-container {
