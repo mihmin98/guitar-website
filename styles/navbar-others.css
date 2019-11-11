@@ -51,6 +51,7 @@ nav img {
 .navbar-item {
     margin: 5px;
     padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media screen and (min-width: 800px){
@@ -61,7 +62,6 @@ nav img {
     .navbar-item {
         vertical-align: middle;
         font-size: 2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .navbar-item:last-of-type {
